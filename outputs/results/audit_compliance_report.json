@@ -1,0 +1,15 @@
+{
+  "report_generated": "2026-05-19T21:59:52.720547",
+  "total_events": 4,
+  "unique_users": 1,
+  "unique_citizens": 0,
+  "events_by_action": {
+    "model_trained": 3,
+    "system_event": 1
+  },
+  "events_by_priority": {},
+  "timestamp_range": {
+    "earliest": "2026-05-19T20:06:48.179708",
+    "latest": "2026-05-19T21:59:52.717547"
+  }
+}

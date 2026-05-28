@@ -1,0 +1,5 @@
+timestamp,user_id,action,citizen_id,recommendation_id,priority,details
+2026-05-19T20:06:48.179708,system,model_trained,,,,"{'model_version': 'v1.0', 'num_samples': 800000, 'accuracy': 0.82349, 'f1_score': 0.7437778985352265}"
+2026-05-19T21:44:24.247859,system,model_trained,,,,"{'model_version': 'v1.0', 'num_samples': 800000, 'accuracy': 0.0, 'f1_score': 0.0}"
+2026-05-19T21:59:52.033738,system,model_trained,,,,"{'model_version': 'v1.0', 'num_samples': 800000, 'accuracy': 0.0, 'f1_score': 0.0}"
+2026-05-19T21:59:52.717547,system,system_event,,,,"{'event': 'model_evaluation_complete', 'accuracy': 0.82349, 'f1_score': 0.7437778985352265, 'timestamp': '2026-05-19T21:59:52.717547'}"

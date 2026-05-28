@@ -1,0 +1,49 @@
+{
+  "project": "eKYC Recommendation Engine",
+  "execution_timestamp": "2026-05-19T21:59:52.742738",
+  "pipeline_status": "COMPLETE",
+  "steps": {
+    "step_1_data_generation": {
+      "status": "skipped",
+      "reason": "cache_hit"
+    },
+    "step_2_parsing": {
+      "status": "skipped",
+      "reason": "cache_hit"
+    },
+    "step_3_preprocessing": {
+      "status": "skipped",
+      "reason": "cache_hit",
+      "train_samples": 800000,
+      "test_samples": 200000,
+      "features": 42
+    },
+    "step_4_training": {
+      "status": "success",
+      "training_samples": 800000,
+      "time_seconds": 2.4342763423919678,
+      "num_trees": 10
+    },
+    "step_5_evaluation": {
+      "status": "success",
+      "accuracy": 0.82349,
+      "precision": 0.6781357801,
+      "recall": 0.82349,
+      "f1_score": 0.7437778985352265,
+      "inference_latency_ms": null,
+      "time_seconds": 0.6732337474822998
+    },
+    "step_6_audit_logging": {
+      "status": "success",
+      "audit_log_file": "C:\\Users\\Shashank S N\\OneDrive\\Desktop\\AI-ML_Project\\ekyc-recommendation-engine\\outputs\\logs\\audit.log",
+      "total_events": 4,
+      "compliance_status": "COMPLIANT"
+    },
+    "step_7_retention_policy": {
+      "status": "failed",
+      "error": "Object of type int64 is not JSON serializable"
+    }
+  },
+  "total_time_seconds": 5.030845403671265,
+  "output_directory": "C:\\Users\\Shashank S N\\OneDrive\\Desktop\\AI-ML_Project\\ekyc-recommendation-engine\\outputs\\results"
+}
